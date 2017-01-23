@@ -31,18 +31,18 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="532" max="32767" attributes="0"/>
+              <EmptySpace pref="541" max="32767" attributes="0"/>
               <Component id="ExitjButton" min="-2" pref="129" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="431" max="32767" attributes="0"/>
-              <Component id="ExitjButton" min="-2" pref="49" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <EmptySpace pref="458" max="32767" attributes="0"/>
+              <Component id="ExitjButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -60,6 +60,7 @@
             <EtchetBorder bevelType="0"/>
           </Border>
         </Property>
+        <Property name="name" type="java.lang.String" value="Exit" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ExitjButtonMouseClicked"/>

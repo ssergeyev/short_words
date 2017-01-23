@@ -38,6 +38,7 @@ public class MainJFrame extends javax.swing.JFrame {
         ExitjButton.setText("Exit");
         ExitjButton.setToolTipText("Нажми для выхода из программы");
         ExitjButton.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
+        ExitjButton.setName("Exit"); // NOI18N
         ExitjButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 ExitjButtonMouseClicked(evt);
@@ -49,16 +50,16 @@ public class MainJFrame extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(532, Short.MAX_VALUE)
+                .addContainerGap(541, Short.MAX_VALUE)
                 .addComponent(ExitjButton, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(40, 40, 40))
+                .addGap(31, 31, 31))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(431, Short.MAX_VALUE)
-                .addComponent(ExitjButton, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(40, 40, 40))
+                .addContainerGap(458, Short.MAX_VALUE)
+                .addComponent(ExitjButton)
+                .addGap(25, 25, 25))
         );
 
         getAccessibleContext().setAccessibleName("MainFormOfShortWords");
