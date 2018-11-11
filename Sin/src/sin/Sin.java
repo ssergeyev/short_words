@@ -43,8 +43,8 @@ public class Sin extends Application {
         
         int i;
         float j;
-        for (i=0;i<=10;i++){
-            j=(float) sin(i);
+        for (i=0;i<=300;i++){
+            j=(float) (sin(i)*10)+15;
             System.out.println("i="+i+"; j="+j);
         }
     }
